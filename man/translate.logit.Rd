@@ -13,7 +13,7 @@
 }
 
 \details{
-This function works with binomial as well as multinomial regression models. If the dependent variable has two factors, \code{\link{glm}} is used ; if it has more than two factors \code{\link{multinom}} function (from \code{nnet} package) is used.
+This function works with binomial as well as multinomial regression models. If the dependent variable has two factors, \code{\link{glm}} is used ; if it has more than two factors \code{\link[nnet]{multinom}} function (from \code{nnet} package) is used.
 
 The function expresses the regression coefficients as percentages through three distinct methods: raw percentages, 'pure effects' percentages and 'experimental effects' percentages (see Deauvieau, 2010).
 
@@ -39,7 +39,7 @@ des probabilites estimees', \emph{Bulletin of Sociological Methodology / Bulleti
 \author{Nicolas Robette}
 
 \seealso{
-\code{\link{glm}}, \code{\link{multinom}}
+\code{\link{glm}}, \code{\link[nnet]{multinom}}
 }
 
 \examples{

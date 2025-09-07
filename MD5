@@ -1,7 +1,9 @@
-170d6db37a65f8e13d1fabf287988d0d *DESCRIPTION
+c756f332c4299d2331994c3bc7d2d3ba *DESCRIPTION
 0b2cbc0a84f07efbb24dedf8f79bd606 *NAMESPACE
-7bf024f016505aefb06982359489a962 *R/translate.logit.R
+b606c6c208a479033a3bc1b31d32b3b1 *NEWS.md
+e1dd05419f89aba6f0614ef9aa29498b *R/translate.logit.R
 25db54501ca3d0da21bb8d3aa157bde8 *R/utils.R
+c4501681299754de20b72800cb7070ca *README.md
 f429d12420f9b4691c34b64970ffb6d0 *data/Music.RData
 f058c32f337d06197cd4e7f450d8631f *man/Music.Rd
-82f70887eeaa28357e338001e0044d6d *man/translate.logit.Rd
+667df868557b7e4cfe98923ba92fe846 *man/translate.logit.Rd

@@ -136,6 +136,9 @@ if(nlevels(vdep)>=3) {
   resfin <- list("by_category"=res, "by_method"=res2)
   reg <- multinom(formula,data,model=TRUE)
   res <- list(glm=reg, summary=summary(reg),percents=resfin)
+  ref <- res$glm$lab[1]
+  res$percents$by_category[[ref]] <- NULL
+  for(i in 1:4) res$percents$by_method[[i]][,ref] <- NULL
   return(res)
   }
 }
